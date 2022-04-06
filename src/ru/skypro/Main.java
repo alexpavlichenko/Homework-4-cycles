@@ -18,6 +18,21 @@ public class Main {
             System.out.print(n + " ");
             }
             }
+            {
+                System.out.println();
+            }
+        }
+        // Задание 2
+        {
+            for (int friday = 1; friday <= 31; friday = friday +7) {
+                System.out.println("Today is the " + friday + "th - submit a report");
+            }
+        }
+        {
+            for ( int year = 0; year <= 2100;  year = year + 79) {
+                if (year > 1895)
+                System.out.println(year);
+            }
         }
     }
 }
