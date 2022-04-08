@@ -28,9 +28,10 @@ public class Main {
                 System.out.println("Today is the " + friday + "th - submit a report");
             }
         }
+        // Задание 3
         {
-            for ( int year = 0; year <= 2100;  year = year + 79) {
-                if (year > 1895)
+            for ( int year = 0; year <= 2122;  year = year + 79) {
+                if (year > 1822)
                 System.out.println(year);
             }
         }
